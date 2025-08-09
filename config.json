@@ -1,6 +1,517 @@
+好的，这是将两个代码块合并后的结果。
+
+合并的规则是：
+
+保留所有不重复的项目。
+
+对于重复的键名（例如 "wolong" 和 "yinghua"），使用您第二次提供的代码中的条目来覆盖第一次的。
+
+以下是合并后的完整代码：
+
+code
+Json
+download
+content_copy
+expand_less
+
 {
   "cache_time": 7200,
   "api_site": {
+    "if101": {
+      "api": "http://api.if101.tv/v1/vod",
+      "name": "if101[屏蔽国内ip]",
+      "detail": "http://api.if101.tv"
+    },
+    "tangrenjie": {
+      "api": "https://www.tangrenjie.tv/api.php/provide/vod/at/xml",
+      "name": "唐人街",
+      "detail": "https://www.tangrenjie.tv"
+    },
+    "duboku": {
+      "api": "https://raw.githubusercontent.com/trial/dp/master/json2/dbk.json",
+      "name": "独播库",
+      "detail": "https://raw.githubusercontent.com"
+    },
+    "olevod": {
+      "api": "https://raw.githubusercontent.com/trial/dp/master/json2/olevod.json",
+      "name": "欧乐影院",
+      "detail": "https://raw.githubusercontent.com"
+    },
+    "wwdc2022": {
+      "api": "https://raw.githubusercontent.com/trial/dp/master/json2/wwdc2022.json",
+      "name": "WWDC2022",
+      "detail": "https://raw.githubusercontent.com"
+    },
+    "jable": {
+      "api": "https://raw.githubusercontent.com/trial/dp/master/json2/jable.json",
+      "name": "Jable",
+      "detail": "https://raw.githubusercontent.com"
+    },
+    "madou": {
+      "api": "http://madouse.la/api.php/provide/vod/at/xml",
+      "name": "麻豆视频",
+      "detail": "http://madouse.la"
+    },
+    "lajiao": {
+      "api": "http://apilj.com/api.php/provide/vod/at/xml",
+      "name": "辣椒资源",
+      "detail": "http://apilj.com"
+    },
+    "siwa": {
+      "api": "https://siwazyw.cc/api.php/provide/vod/at/xml",
+      "name": "丝袜资源",
+      "detail": "https://siwazyw.cc"
+    },
+    "huanya": {
+      "api": "http://wmcj8.com/inc/sapi.php",
+      "name": "环亚资源",
+      "detail": "http://wmcj8.com"
+    },
+    "yibendao": {
+      "api": "https://www.caiji03.com/home/cjapi/cfg8/mc/vod/xml",
+      "name": "一本道资源",
+      "detail": "https://www.caiji03.com"
+    },
+    "dads": {
+      "api": "http://www.caiji24.com/home/cjapi/p0d2/mc/vod/xml",
+      "name": "大屌丝资源",
+      "detail": "http://www.caiji24.com"
+    },
+    "woyaopp": {
+      "api": "http://www.caiji21.com/home/cjapi/klkl/mc/vod/xml",
+      "name": "我要啪啪",
+      "detail": "http://www.caiji21.com"
+    },
+    "tiantang": {
+      "api": "http://vipmv.cc/api.php/provide/vod/at/xml",
+      "name": "天堂资源",
+      "detail": "http://vipmv.cc"
+    },
+    "m3u8tv": {
+      "api": "http://www.zycaiji.net:7788/api.php/provide/vod/at/xml",
+      "name": "M3U8.TV资源",
+      "detail": "http://www.zycaiji.net:7788"
+    },
+    "qilin": {
+      "api": "http://www.qilinzyz.com/api.php/provide/vod/at/xml",
+      "name": "麒麟资源",
+      "detail": "http://www.qilinzyz.com"
+    },
+    "nuoxun": {
+      "api": "http://caiji.nxflv.com/api.php/provide/vod/at/xml",
+      "name": "诺讯资源",
+      "detail": "http://caiji.nxflv.com"
+    },
+    "uku": {
+      "api": "https://api.ukuapi.com/api.php/provide/vod/at/xml",
+      "name": "U酷资源",
+      "detail": "https://api.ukuapi.com"
+    },
+    "renrenmi": {
+      "api": "https://koko.renrenmi.cc/api.php/provide/vod/at/xml",
+      "name": "人人迷蓝光",
+      "detail": "https://koko.renrenmi.cc"
+    },
+    "taopian": {
+      "api": "https://taopianapi.com/home/cjapi/as/mc/vod/xml",
+      "name": "淘片资源",
+      "detail": "https://taopianapi.com"
+    },
+    "lehuo": {
+      "api": "https://lehootv.com/api.php/provide/vod/at/xml",
+      "name": "乐活影视",
+      "detail": "https://lehootv.com"
+    },
+    "kudian": {
+      "api": "https://api.kuapi.cc/api.php/provide/vod/at/xml",
+      "name": "酷点资源",
+      "detail": "https://api.kuapi.cc"
+    },
+    "sugeng": {
+      "api": "https://sugengzy.cn/api.php/provide/vod/at/xml",
+      "name": "速更资源",
+      "detail": "https://sugengzy.cn"
+    },
+    "shandian": {
+      "api": "http://sdzyapi.com/api.php/provide/vod/at/xml",
+      "name": "闪电资源",
+      "detail": "http://sdzyapi.com"
+    },
+    "yule": {
+      "api": "https://api.ylzy1.com/api.php/provide/vod/at/xml",
+      "name": "鱼乐资源",
+      "detail": "https://api.ylzy1.com"
+    },
+    "hanju": {
+      "api": "http://www.hanjuzy.com/inc/api.php",
+      "name": "韩剧资源",
+      "detail": "http://www.hanjuzy.com"
+    },
+    "kuaibo": {
+      "api": "http://www.kuaibozy.com/api.php/provide/vod/at/xml",
+      "name": "快播资源",
+      "detail": "http://www.kuaibozy.com"
+    },
+    "bajie": {
+      "api": "http://cj.bajiecaiji.com/inc/api.php",
+      "name": "八戒资源",
+      "detail": "http://cj.bajiecaiji.com"
+    },
+    "baidu": {
+      "api": "https://api.apibdzy.com/api.php/provide/vod/at/xml",
+      "name": "百度资源",
+      "detail": "https://api.apibdzy.com"
+    },
+    "tiankong": {
+      "api": "https://api.tiankongapi.com/api.php/provide/vod/at/xml",
+      "name": "天空资源",
+      "detail": "https://api.tiankongapi.com"
+    },
+    "leduo": {
+      "api": "http://cj.leduocaiji.com/inc/api.php",
+      "name": "乐多资源",
+      "detail": "http://cj.leduocaiji.com"
+    },
+    "gaoqing": {
+      "api": "http://shdmv.com/api.php/provide/vod/at/xml",
+      "name": "超高清影视",
+      "detail": "http://shdmv.com"
+    },
+    "qukan": {
+      "api": "https://qkmp4.cn/api.php/provide/vod/at/xml",
+      "name": "趣看",
+      "detail": "https://qkmp4.cn"
+    },
+    "kan39": {
+      "api": "https://www.39kan.com/api.php/provide/vod/at/xml",
+      "name": "39影视",
+      "detail": "https://www.39kan.com"
+    },
+    "judashen": {
+      "api": "http://judashen.com/api.php/provide/vod/at/xml",
+      "name": "剧大神",
+      "detail": "http://judashen.com"
+    },
+    "haiwaidy": {
+      "api": "https://www.200121.com/api.php/provide/vod/at/xml",
+      "name": "海外电影",
+      "detail": "https://www.200121.com"
+    },
+    "piaohua": {
+      "api": "http://www.zzrhgg.com/api.php/provide/vod/at/xml",
+      "name": "飘花电影",
+      "detail": "http://www.zzrhgg.com"
+    },
+    "qianxun": {
+      "api": "http://wy.dqyhg.cn/api.php/provide/vod/at/xml",
+      "name": "千寻时光",
+      "detail": "http://wy.dqyhg.cn"
+    },
+    "kuaikankz": {
+      "api": "https://www.vp1127.com/api.php/provide/vod/at/xml",
+      "name": "快看客栈",
+      "detail": "https://www.vp1127.com"
+    },
+    "wangmindy": {
+      "api": "https://www.prinevillesda.org/api.php/provide/vod/at/xml",
+      "name": "网民电影",
+      "detail": "https://www.prinevillesda.org"
+    },
+    "mbo": {
+      "api": "https://www.mbomovie.com/api.php/provide/vod/at/xml",
+      "name": "MBO影视",
+      "detail": "https://www.mbomovie.com"
+    },
+    "tuziwo": {
+      "api": "http://cj.huimaojia.com:12345/api.php/provide/vod/at/xml",
+      "name": "兔子窝",
+      "detail": "http://cj.huimaojia.com:12345"
+    },
+    "wakoko": {
+      "api": "https://www.zwcoco.com/api.php/provide/vod/at/xml",
+      "name": "哇可可影视",
+      "detail": "https://www.zwcoco.com"
+    },
+    "qile": {
+      "api": "https://zy.ujuba.com/api.php/provide/vod/at/xml",
+      "name": "奇乐(优剧)资源",
+      "detail": "https://zy.ujuba.com"
+    },
+    "mangguo": {
+      "api": "https://mgzyz1.com/api.php/provide/vod/at/xml",
+      "name": "芒果资源",
+      "detail": "https://mgzyz1.com"
+    },
+    "xiuse": {
+      "api": "https://api.xiuseapi.com/api.php/provide/vod/at/xml",
+      "name": "秀色资源",
+      "detail": "https://api.xiuseapi.com"
+    },
+    "tantan": {
+      "api": "https://apittzy.com/api.php/provide/vod/at/xml",
+      "name": "探探资源",
+      "detail": "https://apittzy.com"
+    },
+    "huakui": {
+      "api": "https://caiji.huakuiapi.com/inc/api.php",
+      "name": "花魁资源",
+      "detail": "https://caiji.huakuiapi.com"
+    },
+    "zy4000": {
+      "api": "https://www.4000zy.com/inc/api.php",
+      "name": "4000资源",
+      "detail": "https://www.4000zy.com"
+    },
+    "seds": {
+      "api": "http://sdszyapi.com/home/cjapi/asbb/mc/vod/xml",
+      "name": "色屌丝资源",
+      "detail": "http://sdszyapi.com"
+    },
+    "av52": {
+      "api": "https://52zyapi.com/home/cjapi/asda/mc/vod/xml",
+      "name": "52AVAV",
+      "detail": "https://52zyapi.com"
+    },
+    "shuiliandong": {
+      "api": "https://www.sldcaiji.com/home/cjapi/s6da/mc/vod/xml",
+      "name": "水帘洞资源",
+      "detail": "https://www.sldcaiji.com"
+    },
+    "avjzy": {
+      "api": "https://www.caiji22.com/home/cjapi/klp0/mc/vod/xml",
+      "name": "AV集中淫",
+      "detail": "https://www.caiji22.com"
+    },
+    "yeyelu": {
+      "api": "https://www.caiji23.com/home/cjapi/kls6/mc/vod/xml",
+      "name": "夜夜撸资源",
+      "detail": "https://www.caiji23.com"
+    },
+    "mimi": {
+      "api": "http://www.caiji25.com/home/cjapi/p0as/mc/vod/xml",
+      "name": "咪咪资源",
+      "detail": "http://www.caiji25.com"
+    },
+    "baoyuav": {
+      "api": "http://caiji26.com/home/cjapi/p0g8/mc/vod/xml",
+      "name": "鲍鱼AV",
+      "detail": "http://caiji26.com"
+    },
+    "jinggongchang": {
+      "api": "https://jgczyapi.com/home/cjapi/kld2/mc/vod/xml",
+      "name": "精工厂资源",
+      "detail": "https://jgczyapi.com"
+    },
+    "diandianyule": {
+      "api": "https://xx55zyapi.com/home/cjapi/ascf/mc/vod/xml",
+      "name": "点点娱乐",
+      "detail": "https://xx55zyapi.com"
+    },
+    "xiaochunv": {
+      "api": "http://xcncaiji.com/home/cjapi/s6bb/mc/vod/xml",
+      "name": "小处女资源",
+      "detail": "http://xcncaiji.com"
+    },
+    "damm": {
+      "api": "https://www.dmmapi.com/home/cjapi/asd2c7/mc/vod/xml",
+      "name": "大MM资源",
+      "detail": "https://www.dmmapi.com"
+    },
+    "huangguatv": {
+      "api": "https://www.caiji10.com/home/cjapi/cfs6/mc/vod/xml",
+      "name": "黄瓜TV资源",
+      "detail": "https://www.caiji10.com"
+    },
+    "kuaibohezi": {
+      "api": "https://www.caiji09.com/home/cjapi/cfp0/mc/vod/xml",
+      "name": "快播盒子资源",
+      "detail": "https://www.caiji09.com"
+    },
+    "daxiangjiao": {
+      "api": "https://www.caiji08.com/home/cjapi/cfkl/mc/vod/xml",
+      "name": "大香蕉资源",
+      "detail": "https://www.caiji08.com"
+    },
+    "ribenav": {
+      "api": "https://www.caiji07.com/home/cjapi/cfcf/mc/vod/xml",
+      "name": "日本AV在线",
+      "detail": "https://www.caiji07.com"
+    },
+    "jiujiure": {
+      "api": "https://www.caiji06.com/home/cjapi/cfbb/mc/vod/xml",
+      "name": "久久热在线",
+      "detail": "https://www.caiji06.com"
+    },
+    "qingqingcao": {
+      "api": "https://www.caiji05.com/home/cjapi/cfda/mc/vod/xml",
+      "name": "青青草视频",
+      "detail": "https://www.caiji05.com"
+    },
+    "madou_2": {
+      "api": "https://www.caiji04.com/home/cjapi/cfc7/mc/vod/xml",
+      "name": "麻豆视频",
+      "detail": "https://www.caiji04.com"
+    },
+    "caoliu": {
+      "api": "https://www.caiji02.com/home/cjapi/cfas/mc/vod/xml",
+      "name": "草榴视频",
+      "detail": "https://www.caiji02.com"
+    },
+    "yazhoucr": {
+      "api": "https://www.caiji01.com/home/cjapi/cfd2/mc/vod/xml",
+      "name": "亚洲成人在线",
+      "detail": "https://www.caiji01.com"
+    },
+    "zy99": {
+      "api": "http://99zy.pw/api.php/provide/vod/at/xml",
+      "name": "99资源",
+      "detail": "http://99zy.pw"
+    },
+    "douyin": {
+      "api": "https://www.888dav.com/api.php/provide/vod/at/xml",
+      "name": "抖阴视频",
+      "detail": "https://www.888dav.com"
+    },
+    "langchao": {
+      "api": "http://langchaozy6.com/api.php/provide/vod/at/xml",
+      "name": "浪潮资源",
+      "detail": "http://langchaozy6.com"
+    },
+    "kudou": {
+      "api": "https://kudouzy.com/api.php/provide/vod/at/xml",
+      "name": "酷豆资源",
+      "detail": "https://kudouzy.com"
+    },
+    "kulunli": {
+      "api": "https://api.kudian70.com/api.php/provide/vod/at/xml",
+      "name": "酷伦理",
+      "detail": "https://api.kudian70.com"
+    },
+    "aibo": {
+      "api": "https://cj.apiabzy.com/api.php/provide/vod/at/xml",
+      "name": "爱播资源",
+      "detail": "https://cj.apiabzy.com"
+    },
+    "meishaonv": {
+      "api": "https://www.msnii.com/api/xml.php",
+      "name": "美少女资源",
+      "detail": "https://www.msnii.com"
+    },
+    "yinshuiji": {
+      "api": "https://www.xrbsp.com/api/xml.php",
+      "name": "淫水机资源",
+      "detail": "https://www.xrbsp.com"
+    },
+    "xiangnaier": {
+      "api": "https://www.gdlsp.com/api/xml.php",
+      "name": "香奶儿资源",
+      "detail": "https://www.gdlsp.com"
+    },
+    "baipiao": {
+      "api": "https://www.kxgav.com/api/xml.php",
+      "name": "白嫖资源",
+      "detail": "https://www.kxgav.com"
+    },
+    "xiaoshimei": {
+      "api": "https://www.afasu.com/api/xml.php",
+      "name": "小湿妹资源",
+      "detail": "https://www.afasu.com"
+    },
+    "huangav": {
+      "api": "https://www.pgxdy.com/api/xml.php",
+      "name": "黄AV资源",
+      "detail": "https://www.pgxdy.com"
+    },
+    "laoya": {
+      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
+      "name": "老鸭资源",
+      "detail": "https://api.apilyzy.com"
+    },
+    "lebo": {
+      "api": "https://lbapi9.com/api.php/provide/vod/at/xml",
+      "name": "乐播资源",
+      "detail": "https://lbapi9.com"
+    },
+    "botiantang": {
+      "api": "http://bttcj.com/inc/sapi.php",
+      "name": "博天堂",
+      "detail": "http://bttcj.com"
+    },
+    "javmyg": {
+      "api": "http://mygzycj.com/api.php",
+      "name": "JAV名优馆",
+      "detail": "http://mygzycj.com"
+    },
+    "avzy6888": {
+      "api": "http://m.7777688.com/inc/api.php",
+      "name": "AVZY6888资源",
+      "detail": "http://m.7777688.com"
+    },
+    "sese": {
+      "api": "http://secj8.com/inc/sapi.php",
+      "name": "色色资源",
+      "detail": "http://secj8.com"
+    },
+    "jiujiu": {
+      "api": "http://99zywcj.com/inc/sapi.php",
+      "name": "玖玖资源",
+      "detail": "http://99zywcj.com"
+    },
+    "jiucao": {
+      "api": "http://jcspcj8.com/api",
+      "name": "久草资源",
+      "detail": "http://jcspcj8.com"
+    },
+    "langshaonian": {
+      "api": "http://cjmygzy.com/inc/sapi.php",
+      "name": "狼少年",
+      "detail": "http://cjmygzy.com"
+    },
+    "fuerdai": {
+      "api": "http://f2dcj6.com/sapi",
+      "name": "富二代资源",
+      "detail": "http://f2dcj6.com"
+    },
+    "zimuwang": {
+      "api": "http://zmcj88.com/sapi",
+      "name": "字幕网",
+      "detail": "http://zmcj88.com"
+    },
+    "lilai": {
+      "api": "http://llzxcj.com/inc/sck.php",
+      "name": "利来资源",
+      "detail": "http://llzxcj.com"
+    },
+    "fanhao": {
+      "api": "http://fhapi9.com/api.php/provide/vod/at/xml",
+      "name": "番号资源",
+      "detail": "http://fhapi9.com"
+    },
+    "shayu": {
+      "api": "https://shayuapi.com/api.php/provide/vod/at/xml",
+      "name": "鲨鱼资源",
+      "detail": "https://shayuapi.com"
+    },
+    "sudu": {
+      "api": "http://www.ggmmzy.com:9999/inc/xml",
+      "name": "速度资源",
+      "detail": "http://www.ggmmzy.com:9999"
+    },
+    "kkxz": {
+      "api": "https://kkzy.me/api.php/provide/vod/at/xml",
+      "name": "KK写真资源",
+      "detail": "https://kkzy.me"
+    },
+    "jiali": {
+      "api": "https://jializyzapi.com/api.php/provide/vod/at/xml",
+      "name": "佳丽资源",
+      "detail": "https://jializyzapi.com"
+    },
+    "czspp": {
+      "api": "https://raw.githubusercontent.com/trial/dp/master/json2/czspp.json",
+      "name": "厂长资源",
+      "detail": "https://raw.githubusercontent.com"
+    },
     "dyttzy": {
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
       "name": "电影天堂资源",
